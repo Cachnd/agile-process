@@ -1,0 +1,104 @@
+
+table.tabla {
+	font:Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.cabecera {
+	background:#5B78C4;
+        color:#FFFFFF;
+	font:bold Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.incorrecto {
+  background:#CC2222;
+  color:#FFFFFF;
+  font:bold Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.correcto {
+  background:#FFFFFF;
+  font:bold Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.clasificatoria {
+	background:#00FF66;
+	color:#192666;
+	font:bold Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.suave {
+  background-color:#8BAAF0;
+  font:bold Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr.cabecera td {
+	font:bold 13px Arial, Helvetica, sans-serif;
+}
+
+tr.fila {
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+tr.fila td{
+	border:medium;
+}
+
+input.eliminar {
+	background-image:url(../imagenes/eliminar.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	border:0;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+}
+
+input.eliminar:hover {
+	background-image:url(../imagenes/modificar.png);
+}
+
+input.modificar {
+	background-image:url(../imagenes/modificar.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	border:0;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+}
+
+input.modificar:hover {
+	background-image:url(../imagenes/modificar.png);
+}
+
+input.vista{
+	background-image:url(../images/ver.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	border:0;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	background-color:#FFFFFF;
+}
+
+input.vista:hover {
+	background-image:url(../images/ver1.png);
+}
+
+.pendiente {
+  background-image:url(../imagenes/pendiente.png);
+  background-position:left,center;
+  background-repeat:no-repeat;
+  padding:0 0 0 15px;
+}
+
+.nopendiente {
+  background-image:url(../imagenes/nopendiente.png);
+  background-position:left,center;
+  background-repeat:no-repeat;
+  padding:0 0 0 15px;
+}

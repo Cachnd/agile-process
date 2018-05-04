@@ -1,0 +1,219 @@
+div#principal{
+text-align:left;}
+
+div#proyectos{
+padding: 5px 0px 0px 40px;
+font: bold 12px Helvetica,Times;
+color: #0033cc;
+}
+
+div#icorrhh div.titulop{
+padding:5px 0px 0px 89px;
+font: bold 13px Verdana, Times, Times New Roman;
+color: #339900;
+}
+
+div#textpro{
+padding:5px 0px 0px 10px;
+font:10px  Verdana, Times, Times New Roman;
+color: #000;
+}
+div#textpro ul{
+margin:0px 0px 0px 15px;
+padding:0px 15px 0px 0px;
+list-style-image: url(images/icoli.gif);
+}
+
+div#icopro{
+padding: 5px 0px 0px 45px;
+font: bold 12px Helvetica, Times;
+color: #0033cc
+}
+/*Titulos Principales*/
+div#titulosp{
+width:350px;
+padding: 7px 0px 0px 0px;
+font:bold 16px  Verdana,Times;
+border-bottom: 1px #E6B873 dotted;
+margin-bottom:15px;
+color: #5C73B8}
+/*fin Titulos Principales*/
+
+div#titulopn{
+font: bold 17px Arial, San-serif;
+color: #3054BF;
+/*border:1px solid;*/
+padding:6px;}
+
+div#titulopn_pr{
+font: bold 21px Arial,Times;
+padding-bottom:12px;
+padding-top:6px;
+color: #3366ff}
+
+div#textnot{
+padding-right:8px;
+font: 12px/18px Verdana, Serif;
+color: #000;}
+
+div#titulocv{
+font: bold 14px Helvetica,Times;
+color: #B36B00}
+
+div#textconv{
+text-align:justify;
+padding-left:9px;
+padding-right:20px;
+font: 12px/18px Verdana,Times;
+color: #000;}
+
+div#publi{padding: 5px 0px 0px 5px;
+font: bold 12px Helvetica,Times;
+color: #ffecca}
+
+div#notifi{
+/*margin-top:10px;*/
+padding: 5px 0px 0px 5px;
+font: bold 12px Helvetica,Times;
+border-bottom: 1px #ccc solid;
+color: #008}
+
+div#notifititulo{border-bottom:#ccc 1px solid;
+margin-top:5px;
+margin-left:6px;
+margin-right:6px;
+margin-bottom:10px;
+background: url(images/icov.gif) no-repeat;
+padding-left:23px;
+font: bold 12px Helvetica,Times;
+color:#007ea4}
+div#textnotifi{
+padding-bottom:8px;
+margin-left:12px;
+margin-right:8px;
+margin-bottom:6px;
+font:10px  Verdana, Times, Times New Roman;
+color: #000;
+/*border-bottom:#ccc 1px dashed;*/}
+
+div#imapubli{
+padding:4px;}
+
+div#textpubli span{
+font: bold 12px Helvetica,Times;
+color: #ccffff;}
+
+div#textpubli{
+padding-top:4px;
+padding-bottom:9px;
+font:12px Helvetica,Times;
+color: #fff;
+}div.linkm{
+padding:6px 0px 0px 50px;
+font:bold 12px Helvetica,Times;}
+
+div.linkc{
+padding:6px;
+font:bold 12px Helvetica,Times;}
+
+#titulopn a:link
+{
+color: #008;
+text-decoration:none;
+}
+
+#titulopn a:visited
+{
+color: #727EA3;text-decoration: none;}
+
+#titulopn a:hover ,a:active 
+{
+color: #0033ff; 
+/*background-color:#eee;*/text-decoration:none;} 
+
+
+.linkm a:link
+{
+color: #008;
+}
+
+.linkm a:visited
+{
+color: #990033;text-decoration: none;}
+
+.linkm a:hover ,a:active 
+{
+color: #ff0033; 
+/*background-color:#eee;*/text-decoration: underline;} 
+
+.linkc a:link
+{
+color: #008;
+}
+
+.linkc a:visited
+{
+color: #990033;text-decoration: none;}
+
+.linkc a:hover ,a:active 
+{
+color: #ff0033; 
+/*background-color:#eee;*/text-decoration: underline;} 
+
+div#tituloconv{
+padding: 7px 0px 0px 0px;
+font: bold 14px Verdana,Times;
+border-bottom: 1px #ff3300 dotted;
+color: #008}
+
+div#pie{
+
+padding:10px 0px 0px 0px;
+font: 10px/14px Verdana, Helvetica,san-serif;
+color:#fff;
+border-top: 1px #ccc solid;
+/*background:url(us.gif) no-repeat;*/
+text-align: left;}
+div#pie_texto{
+padding-left:10px;}
+
+div#postmenu{
+padding:4px;
+font:bold 13px Verdana, Arial, serif;
+color: #3366cc;
+}
+
+div#titleaus{
+
+text-align:center;
+padding:5px;
+font:bold 15px Arial;
+color: #990000
+
+}
+
+div#postlinkm{
+font: 11px Verdana,serif;
+}
+
+#pie a:link
+{
+color: #fff;
+
+}
+
+#pie a:visited
+{
+color: #cccccc;
+text-decoration:none;/*font-weight: bold;*/}
+
+#pie a:hover ,a:active 
+{
+color: #cccccc; }
+
+a img { 
+border:0px;
+color: white; }        /* trick to hide the border in Netscape 4 */
+@media all {                   /* hide the next rule from Netscape 4 */
+a img { color: inherit; }    /* undo the color change above */
+}
